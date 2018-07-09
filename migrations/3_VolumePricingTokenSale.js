@@ -7,8 +7,8 @@ module.exports = function(deployer, network, accounts) {
   volumeThreshold = web3.toBigNumber(10).mul(10**18);
   if (network == "staging") {
     tokenContractAddress = "0x0290fb167208af455bb137780163b7b7a9a10c16";
-    sellerAddress = accounts[0];
-    proceedsAddress = "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1";
+    sellerAddress = "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1";
+    proceedsAddress = sellerAddress;
   }
   else if (network == "live") {
     //TODO: Define production values

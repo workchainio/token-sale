@@ -2,7 +2,7 @@ pragma solidity ^0.4.23;
 
 import "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol";
 //The token contract is not a dependency but is used in tests so importing it here for compilation
-import "work-token/contracts/WorkToken.sol";
+import "watt-token/contracts/WATTToken.sol";
 /**
  * @title AllowanceCrowdsale
  * @dev Extension of AllowanceCrowdSale where a discounted rate can be applied to purchases over a certain amount

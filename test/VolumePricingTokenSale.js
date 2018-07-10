@@ -1,5 +1,5 @@
 const VolumePricingTokenSale = artifacts.require("VolumePricingTokenSale");
-const TokenContract = artifacts.require("WorkToken");
+const TokenContract = artifacts.require("WATT");
 const rate = 166;
 const volumeRate = 250;
 const volumeThreshold = web3.toBigNumber(10).mul(10**18);
